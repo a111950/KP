@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar Radio Activity and Earth's Weather</title>
+    <title>Solar Radio Activity and Sunspot</title>
     <style>
         body {
             display: flex;
@@ -17,9 +17,13 @@
         h1 {
             font-size: 72px;
             color: #ffffff; /* White color */
+            margin-bottom: 40px;
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
         }
         .button {
-            margin-top: 20px;
             padding: 15px 30px;
             font-size: 20px;
             color: #ffffff;
@@ -28,6 +32,7 @@
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
+            transition: background-color 0.3s ease;
         }
         .button:hover {
             background-color: #777777;
@@ -35,7 +40,13 @@
     </style>
 </head>
 <body>
-    <h1>Solar Radio Activity and Earth's Weather</h1>
-    <a href="solar_radio.html" class="button">See Solar Radio Activity</a>
+    <h1>Solar Radio Activity and Sunspot</h1>
+    
+    <!-- Button container for a unified look -->
+    <div class="button-container">
+        <a href="solar_radio.html" class="button">See Solar Radio Activity</a>
+        <a href="sunspot.html" class="button">See Sunspot Progression</a>
+    </div>
+
 </body>
 </html>
