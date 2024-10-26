@@ -5,6 +5,6 @@
 
 ## 2. Solar Radio Graph and Forecast
 [https://a111950.github.io/KP/graph_display.html](https://a111950.github.io/KP/graph_display.html)
-# 3. Sunspot Graph and Forecast
-
+## 3. Sunspot Graph and Forecast
+[https://a111950.github.io/KP/sunspot.html]
 # 4 Little Game
