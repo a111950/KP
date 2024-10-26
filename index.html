@@ -7,6 +7,7 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -17,9 +18,24 @@
             font-size: 72px;
             color: #ffffff; /* White color */
         }
+        .button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 20px;
+            color: #ffffff;
+            background-color: #555555;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #777777;
+        }
     </style>
 </head>
 <body>
     <h1>Solar Radio Activity and Earth's Weather</h1>
+    <a href="solar_radio.html" class="button">See Solar Radio Activity</a>
 </body>
 </html>
